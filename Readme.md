@@ -7,4 +7,3 @@
 1. Have apache server setup with  PHP 7.2 or higher and MySQL Server
 2. Import the revpanda.sql db in the __data_dump folder
 3. Edit the sql_connection.php file to match your db access service inside the lib folder
-4.
