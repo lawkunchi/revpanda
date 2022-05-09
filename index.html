@@ -1,0 +1,70 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Rev Test</title>
+
+			<meta charset="utf-8">
+        	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=0">
+
+			<!-- JQUERY  -->
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+           <!--  STYLEs -->
+			<link rel="stylesheet"  href="./assets/styles.css" type="text/css" media="all" />
+
+		</head>
+		<body>
+
+        <form id="ajaxFormSubmitHandler" method="POST" data-action="lib/add_data.php">
+
+            <div class="success"></div>
+            <div class="error  main-error"></div>
+
+                    <div class="form-inputs">
+                        <div class="fieldset">
+                            <label for="a">A</label>
+                            <input type="text" class="form-input" placeholder="Enter value for A" name="a" id="a">
+                            <div class=" error error-a"></div>
+                        </div>
+
+                        <div class="fieldset">
+                            <label for="b">B</label>
+                            <input type="text" class="form-input" placeholder="Enter value for B" name="b" id="b">
+                            <div class="error error-b"></div>
+                        </div>
+
+                        <div class="fieldset">
+                            <label for="c">C</label>
+                            <input type="text" class="form-input" placeholder="Enter value for C" name="c" id="c">
+                            <div class="error error-c"></div>
+                        </div>
+
+                        <div>
+                            <button type="submit">Add to Table</button>
+                        </div>
+                    </div>
+        </form>
+
+        <div class="button-container">
+            <button class="retrieve-data" id="first">First Button</button>
+            <button class="retrieve-data" id="second">Second Button</button>
+            <button class="retrieve-data" id="third">Third Button</button>
+            <button class="retrieve-data" id="fourth">Fourth Button</button>
+            <button class="retrieve-data" id="fifth">Fifth Button</button>
+        </div>
+
+        <h4 id="title">Press a button above to display a table</h4>
+        <table id="readData">
+        </table>
+
+
+		<div id="postScript"></div>
+		<script type="text/javascript" id="postscript"></script>
+
+        <script type="text/javascript" src="./assets/main.js"></script>
+
+	</body>
+</html>
+
+
+		
